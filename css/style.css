@@ -19,7 +19,6 @@
 
 .content { float:left; width:92%; margin:0 4%; padding: 20px 0;}
 
-
 /*HEADER*/
 .main_header          { background:black; z-index:1; }
 .main_header .content { float:left; padding:0px 0; }
@@ -129,19 +128,12 @@
 
 .box-css { float:left; width:48%; margin-right:4%; min-height: 300px;}
 .box-css:nth-of-type(2n+0) {margin-right:0; }
-
 .info p   { font-size:1em; }
-
-.topoPag .centraliza { 
-    font-size:1.5em; 
-    display: flex;
-    font-size: 0.5rem;
-    flex-direction: column;
-    position: absolute;
-    top: 5px;
-}
-
-
+.topoPag .centraliza {display: flex;flex-direction: column;position: absolute;top: 5px;}
+#inicio{height:100vh;}
+#inicio img{height: 100vh;}
+.centraliza{padding-top: 330px;}
+.centraliza h1{}
 }
 
 /*600PX BREAKPOINT*/
