@@ -132,7 +132,7 @@
 .topoPag .centraliza {display: flex;flex-direction: column;position: absolute;top: 5px;}
 #inicio{height:100vh;}
 #inicio img{height: 100vh;}
-.centraliza{padding-top: 330px;}
+.centraliza{padding-top: 300px;}
 .centraliza h1{}
 }
 
@@ -153,7 +153,7 @@
 
 .section_title   { font-size:2em; font-weight:300; text-align:left; }
 
-.topoPag .centraliza h1 { font-size:5em; margin-top:4rem;}
+.topoPag .centraliza h1 { font-size:3em; margin-top:10rem;}
 .topoPag .centraliza p   { font-size:1.1em; }
 
 
@@ -189,7 +189,7 @@
 /*960 dividido por 16 = 60em*/
 @media (min-width:52em){
 
-.topoPag .centraliza h1 { font-size:6em; margin-top:8rem;}
+.topoPag .centraliza h1 { font-size:4em; margin-top:8rem;}
 .topoPag .centraliza p  { letter-spacing:6.5px; }
 
 }
@@ -199,7 +199,7 @@
 /*1024 dividido por 16 = 64em*/
 @media (min-width:64em){
 
-    .topoPag .centraliza h1 { font-size:7em; margin-top:9rem;}
+    .topoPag .centraliza h1 { font-size:4em; margin-top:9rem;}
 }
 
 /*1280PX BREAKPOINT*/
@@ -223,7 +223,8 @@
 .galeria-barber .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
 .galeria-barber .foto:nth-of-type(4n+0) { margin-right:0; }
 
-.topoPag .centraliza h1 { font-size:7em; margin-top:15rem; }
+.topoPag .centraliza{padding-bottom: 20rem;}
+.topoPag .centraliza h1 { font-size:4em;}
 .topoPag .centraliza p  { font-size: 1rem; }
 }
 
@@ -232,14 +233,8 @@
 @media (min-width:85em){
 
  .content  { width:80%; margin:0 10%; }
- .topoPag .centraliza { font-size:1.5em; text-align: center;justify-content: center;font-size: medium;height: 50rem;}
- .topoPag .centraliza h1 { font-size:4em; margin-bottom:2rem;}
+ .topoPag .centraliza {text-align: center;font-size: medium;height: 50rem;}
+ .topoPag .centraliza h1 { font-size:4em; margin-top:6rem;}
  .topoPag .centraliza p{ padding-top: 1rem;}
-
-}
-
-/*1600PX BREAKPOINT*/
-/*1600 dividido por 16 = 100em*/
-@media (min-width:100em){
 
 }
