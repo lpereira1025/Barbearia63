@@ -199,7 +199,7 @@
 /*1024 dividido por 16 = 64em*/
 @media (min-width:64em){
 
-    .topoPag .centraliza h1 { font-size:4em; margin-top:9rem;}
+    .topoPag .centraliza h1 { font-size:4em; margin-top:1rem;}
 }
 
 /*1280PX BREAKPOINT*/
@@ -215,7 +215,7 @@
 
 .main_header_nav_item  span   { display:none;  }
 
-.main_header_nav_item > a  { color:#611c0b; float:left; font-family: 'orbitron'; padding:1.5em 1em; font-size:0.95em; text-decoration:none; text-transform:uppercase; }
+.main_header_nav_item > a  { color:#f7f4f4; float:left; font-family: 'orbitron'; padding:1.5em 1em; font-size:0.95em; text-decoration:none; text-transform:uppercase; }
 .main_header_nav_item:hover, 
 .main_header_nav_item > a:hover { background:transparent; color:#449ad3; }
 
